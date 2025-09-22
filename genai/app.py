@@ -2,7 +2,21 @@ from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy import create_engine, text
 import openai
+from dotenv import load_dotenv
+import os
 
+# Load .env file
+load_dotenv()
+
+# Set OpenAI API key from .env
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
+# Optionally, you can load default DB credentials from .env
+DEFAULT_DB_HOST = os.getenv("DB_HOST", "localhost")
+DEFAULT_DB_PORT = int(os.getenv("DB_PORT", 3306))
+DEFAULT_DB_USER = os.getenv("DB_USER", "root")
+DEFAULT_DB_PASSWORD = os.getenv("DB_PASSWORD", "root")
+DEFAULT_DB_NAME = os.getenv("DB_NAME", "test")
 
 app = FastAPI()
 
