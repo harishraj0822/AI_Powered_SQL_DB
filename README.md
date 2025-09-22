@@ -1,6 +1,6 @@
-Project Title: TalkToDB — Natural Language Interface to SQL Database 
+Project Title: AI-Powered SQL — Natural Language Interface to SQL Database 
 
-Summary: TalkToDB is an AI-powered interface that allows users to interact with a MySQL 
+Summary: AI-Powered SQL is an interface that allows users to interact with a MySQL 
 database using plain English prompts. It leverages OpenAI's GPT-4 model to convert natural 
 language queries into optimized SQL statements, execute them on the database, and return 
 results in a user-friendly UI. This eliminates the need for end users to know SQL, making data 
@@ -32,7 +32,7 @@ Use Cases:
 
 
 How to Present in Interviews:
-Storyline for Interviews: "I built a GenAI-based product called TalkToDB, which allows any 
+Storyline for Interviews: "I built a GenAI-based product called AI-Powered SQL, which allows any 
 user to ask questions in plain English and get answers from a structured SQL database. The 
 core idea was to abstract away SQL complexity for business and non-tech users." 
 
@@ -64,7 +64,7 @@ Interview Angle:
 
 How to Present to Leaders or Managers 
 Pitch to Company Leadership or Product Heads: 
-"TalkToDB is a GenAI-driven internal tool that simplifies access to relational databases 
+"AI-Powered SQL is a GenAI-driven internal tool that simplifies access to relational databases 
 using natural language. It bridges the gap between business users and technical data 
 systems." 
 
@@ -77,7 +77,7 @@ Business Value:
 
 Why It Matters: 
 ● Data is critical, but SQL is a barrier to many users 
-● TalkToDB opens up structured data through an intuitive interface 
+● AI-Powered SQL opens up structured data through an intuitive interface 
 ● Safe — no write permissions, only SELECT, JOINs, filters, aggregations 
 
 
