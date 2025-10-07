@@ -1,7 +1,9 @@
+/* App-specific CSS */
+
 #root {
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  width: 100%;
+  padding: var(--padding);
   text-align: center;
 }
 
@@ -11,9 +13,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -35,8 +39,13 @@
 
 .card {
   padding: 2em;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  margin: 1em 0;
 }
 
 .read-the-docs {
   color: #888;
+  margin-top: 1em;
+  display: block;
 }
